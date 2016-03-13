@@ -1,0 +1,24 @@
+{
+    "mail_url": "smtp://<login@example.com>:<password>@smtp.mailgun.org:465/",
+    "public": {
+	"meta": {
+	    "title": "Project Title"
+	},	
+	"google": {
+	    "oauth_key": "<oauth_key>",
+	    "oauth_secret": "<oauth_secret>",
+	    "api_key": "<api_key>"
+	}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

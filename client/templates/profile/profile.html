@@ -1,0 +1,18 @@
+<template name="profile">
+  <div class="template-profile">
+    <ul class="collapsible popout" data-collapsible="accordion">
+      <li>
+	<div class="collapsible-header"><i class="material-icons">info_outline</i>About me</div>
+	<div class="collapsible-body"><p>{{> profileInfo}}</p></div>
+      </li>
+      <li>
+	<div class="collapsible-header"><i class="material-icons">security</i>Security</div>
+	<div class="collapsible-body"><p>
+	    {{#unless isOauth}}
+	    {{> changePassword}}
+	    {{/unless}}
+	</p></div>
+      </li>
+    </ul>
+  </div>
+</template>
